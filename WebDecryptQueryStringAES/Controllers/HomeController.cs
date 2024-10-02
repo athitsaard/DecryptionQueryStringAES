@@ -20,7 +20,7 @@ namespace WebDecryptQueryStringAES.Controllers
 
         public IActionResult Index(string q)
         {   
-            
+            // tset url
             // https://localhost:44356/Home/index?q=JHr2ZKQjD4eenerUc%2fWwjnSlRSC1yjNRzHHgcB2ugYfS%2f5e5xgOIExSNNiFqTmyz5u%2bSXI9gcquXz7WsyN5Qw%2b3SmMEeI8qHk057OGcL%2bohA6T2b48N0%2fW0B83U8bPCFahSMcDdDNXVwsDD%2fHaS%2f8cZDyEwZzR0y1LaGgQVVwMoJntVkbVecurGvyKs%2bXoGCs0vLXGcmKSd8Ch2uFk3F9gMGu7bKv8EmLYePxzf63fsSpavPhF8WHeGWgJ6u46pc
             var helper = new Helper();
             var Key = "7A5E046FCA81867339A6BB651775675B23E1F770419510D8264C5C66063FE2D6";
