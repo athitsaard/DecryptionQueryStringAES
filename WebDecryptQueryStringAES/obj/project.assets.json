@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ATHIT\\source\\repos\\DecyptAES\\WebDecryptQueryStringAES\\WebDecryptQueryStringAES.csproj",
+      "projectUniqueName": "C:\\Users\\ATHIT\\source\\repos\\DecryptAES\\WebDecryptQueryStringAES\\WebDecryptQueryStringAES.csproj",
       "projectName": "WebDecryptQueryStringAES",
-      "projectPath": "C:\\Users\\ATHIT\\source\\repos\\DecyptAES\\WebDecryptQueryStringAES\\WebDecryptQueryStringAES.csproj",
+      "projectPath": "C:\\Users\\ATHIT\\source\\repos\\DecryptAES\\WebDecryptQueryStringAES\\WebDecryptQueryStringAES.csproj",
       "packagesPath": "C:\\Users\\ATHIT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ATHIT\\source\\repos\\DecyptAES\\WebDecryptQueryStringAES\\obj\\",
+      "outputPath": "C:\\Users\\ATHIT\\source\\repos\\DecryptAES\\WebDecryptQueryStringAES\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
