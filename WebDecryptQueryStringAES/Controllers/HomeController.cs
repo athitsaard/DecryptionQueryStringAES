@@ -19,13 +19,12 @@ namespace WebDecryptQueryStringAES.Controllers
         }
 
         public IActionResult Index(string q)
-        {   
-            // tset url
-            // add url
-            // https://localhost:44356/Home/index?q=JHr2ZKQjD4eenerUc%2fWwjnSlRSC1yjNRzHHgcB2ugYfS%2f5e5xgOIExSNNiFqTmyz5u%2bSXI9gcquXz7WsyN5Qw%2b3SmMEeI8qHk057OGcL%2bohA6T2b48N0%2fW0B83U8bPCFahSMcDdDNXVwsDD%2fHaS%2f8cZDyEwZzR0y1LaGgQVVwMoJntVkbVecurGvyKs%2bXoGCs0vLXGcmKSd8Ch2uFk3F9gMGu7bKv8EmLYePxzf63fsSpavPhF8WHeGWgJ6u46pc
+        {
+           
+            //q = http://localhost:5000/Home/index?q=JHr2ZKQjD4eenerUc%2fWwjnSlRSC1yjNRzHHgcB2ugYfS%2f5e5xgOIExSNNiFqTmyz5u%2bSXI9gcquXz7WsyN5Qw%2b3SmMEeI8qHk057OGcL%2bohA6T2b48N0%2fW0B83U8bPCFahSMcDdDNXVwsDD%2fHaS%2f8cZDyEwZzR0y1LaGgQVVwMoJntVkbVecurGvyKs%2bXoGCs0vLXGcmKSd8Ch2uFk3F9gMGu7bKv8EmLYePxzf63fsSpavPhF8WHeGWgJ6u46pc
             var helper = new Helper();
-            var Key = "7A5E046FCA81867339A6BB651775675B23E1F770419510D8264C5C66063FE2D6";
-            var IV = "39C8D541711670AD8727FE9E1AE4043C";
+            var Key = ""; // ติดต่อขอ key จากทีม Bizportal ของ DGA
+            var IV = ""; // ติดต่อขอ IV จากทีม Bizportal ของ DGA
             if (!string.IsNullOrEmpty(q))
             {
                 var queryString = helper.GetQueryString<QueryStringUrl>(q, Key, IV);
